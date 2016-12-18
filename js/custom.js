@@ -102,7 +102,7 @@ jQuery(document).ready(function($){
 
  /* Navigation Bar
   -----------------------------------------------*/
-$(document).ready(function() { 
+$(document).ready(function(){ 
     "use strict";
 
     // Navbar Sticky
@@ -180,4 +180,60 @@ $(document).ready(function(){
   new WOW({ mobile: false }).init();
 
   });
+
+
+
+function overlayOn(image) {
+    var body = document.body;
+    var overlay = document.querySelector('.portfolio-overlay');
+    var img_src = image.src;
+     
+    document.getElementById("single-painting").src = image.src; 
+     
+    /* Toggle the aria-hidden state on the overlay and the 
+    no-scroll class on the body */
+    overlay.setAttribute('aria-hidden', 'false');
+    body.classList.toggle('noscroll', 'true');
+    /* On some mobile browser when the overlay was previously
+        opened and scrolled, if you open it again it doesn't 
+        reset its scrollTop property */
+        overlay.scrollTop = 0;
+};
+
+
+function overlayOff() {
+    var body = document.body;
+    var overlay = document.querySelector('.portfolio-overlay');
+    
+    /* Toggle the aria-hidden state on the overlay and the 
+    no-scroll class on the body */
+    overlay.setAttribute('aria-hidden', 'true');
+    body.classList.toggle('noscroll', 'false');
+    
+        /* On some mobile browser when the overlay was previously
+        opened and scrolled, if you open it again it doesn't 
+        reset its scrollTop property */
+        overlay.scrollTop = 0;  
+};
+
+
+// <script>
+//  /* Pass image info when click
+//   -----------------------------------------------*/
+//   function getSrc(image){
+//     var img_src = image.src;
+//     //alert(img_src);
+//     var img_id = img_src.substring(img_src.lastIndexOf('/')+1,img_src.lastIndexOf('.'));
+//     //alert(img_id);
+//     document.location="single-project.html?" + img_id;
+//   };
+  
+// </script>
+
+// <script>
+//   function eng(){
+//       document.getElementById("intro").innerHTML = "Bingqing Lan, born in 1959 in Harbin, China, parents originally from Xiushan County, Chongqing. His father Shibi Lan (1915 - 1984) was a distinctive art graduate from The National University of China in the early 1930s. Guided and recognised by some of the most influential artists in the modern Chinese art history, including Beihong Xu, Junbi Huang, Shuqi Zhang, Fozhi Chen, Baoshi Fu, Shibi mastered many aspects of traditional Chinese art, including 'water-and-ink' paiting of landscape, portrait and figures, flowers and planations, animals etc, together with calligraphy and poetry. Shibi held his own exhibition in Chongqing China in March 1946. Although Bingqing Lan, under the influence of his father, has also developed his artistic mindset and skills in the early years, he did not follow the path of becoming a professional artist. Since the approach of his retirement in recent years, Bingqing has decided to pick up the paint brushes again, research and practise. Starting from tigers, the category that has been practised the most by him and his father, Bingqing is determined to set his foot back on track to explore the beauty of traditional Chinese painting, and wishes to share his journey and outcome with anyone who come across.";
+//   };
+ 
+// </script>
 
