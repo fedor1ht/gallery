@@ -165,9 +165,9 @@ $(document).ready(function(){
   $(function() {
     $('.header-one').vegas({
         slides: [
-            { src: 'images/header-bg.jpg' },
+            { src: 'images/profile2.jpeg' },
             { src: 'images/profile3.jpeg' },
-            { src: 'images/profile1.jpeg' }
+            { src: 'images/profile4.jpeg' }
         ],
         timer: false,
         transition: [ 'zoomIn', ],
