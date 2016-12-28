@@ -10,10 +10,14 @@ http://www.tooplate.com/view/2082-pure-mix
 ------------------------------------- */
 @font-face {
     font-family: "Hiragino Sans GB W3";
-    font-family: "Hiragino Sans GB W6";
-    font-family: "helvetica-normal";
     src: url(../fonts/Hiragino Sans GB W3.otf);
+}
+@font-face {
+    font-family: "Hiragino Sans GB W6";
     src: url(../fonts/Hiragino Sans GB W6.otf);
+}
+@font-face {
+    font-family: "helvetica-normal";
     src: url(../fonts/helvetica-normal.ttf);
 }
 
