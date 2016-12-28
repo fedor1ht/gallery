@@ -18,7 +18,7 @@ http://www.tooplate.com/view/2082-pure-mix
 }
 
 body {
-	  background: #ffffff;
+	background: #ffffff;
     font-family: 'helvetica-normal', "Hiragino Sans GB W6", sans-serif;
     font-style: normal;
     font-weight: 300;
@@ -29,6 +29,7 @@ html,body {
   width: 100%;
   height: 100%;
   overflow-x: hidden;
+  overflow-y: auto;
 }
 
 html {
@@ -792,7 +793,7 @@ ul, menu, dir {
 }
 
 #contact p {
-  text-align: center;
+  text-align: left;
   padding-bottom: 20px;
 }
 
