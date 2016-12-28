@@ -137,9 +137,9 @@ $(document).ready(function(){
   $(function() {
     $('.header-one').vegas({
         slides: [
-            { src: '../images/profile2.jpeg' },
-            { src: '../images/profile3.jpeg' },
-            { src: '../images/profile4.jpeg' }
+            { src: 'https://fedor1ht.github.io/gallery/images/profile2.jpeg' },
+            { src: 'https://fedor1ht.github.io/gallery/images/profile3.jpeg' },
+            { src: 'https://fedor1ht.github.io/gallery/images/profile4.jpeg' }
         ],
         timer: false,
         transition: [ 'zoomIn', ],
