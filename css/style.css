@@ -535,16 +535,6 @@ a.icon {
 	padding-bottom: 1rem;
 }
 
-#about p {
-  text-align: center;
-}
-
-@media (max-width: 980px) {
-  #about p {
-  text-align: left;
-  }
-}
-
 /* Portfolio section styles
 /* ========================================== */
 #portfolio {
