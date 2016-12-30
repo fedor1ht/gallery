@@ -797,8 +797,14 @@ ul, menu, dir {
 }
 
 #contact p {
-  text-align: left;
+  text-align: center;
   padding-bottom: 20px;
+}
+
+@media (max-width: 980px) {
+  #contact p {
+  text-align: left;
+}
 }
 
 /* footer section styles
