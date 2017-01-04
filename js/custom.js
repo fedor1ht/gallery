@@ -197,6 +197,11 @@ function overlayOn(image) {
             document.getElementById("name").innerHTML = "下山虎 IV";
             document.getElementById("date").innerHTML = "2015.09";
             document.getElementById("size").innerHTML = "135 x 70 cm";
+          
+        } else if (img_alt == "lion1") {
+            document.getElementById("name").innerHTML = "雄视一方";
+            document.getElementById("date").innerHTML = "2016.06";
+            document.getElementById("size").innerHTML = "135 x 70 cm";
         } else {
             alert ("Image not found!");
         }
@@ -230,9 +235,14 @@ function overlayOn(image) {
             document.getElementById("name").innerHTML = "Tiger going downhill IV";
             document.getElementById("date").innerHTML = "2015.09";
             document.getElementById("size").innerHTML = "135 x 70 cm";
+          
+        } else if (img_alt == "lion1") {
+            document.getElementById("name").innerHTML = "Lion on the watch";
+            document.getElementById("date").innerHTML = "2016.06";
+            document.getElementById("size").innerHTML = "135 x 70 cm";
         } else {
-                                                alert ("Image not found!");
-                                }
+            alert ("Image not found!");
+        }
     }
     
     /* Toggle the aria-hidden state on the overlay and the
