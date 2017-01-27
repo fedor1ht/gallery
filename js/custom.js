@@ -202,6 +202,10 @@ function overlayOn(image) {
             document.getElementById("name").innerHTML = "雄视一方";
             document.getElementById("date").innerHTML = "2016.06";
             document.getElementById("size").innerHTML = "135 x 70 cm";
+        } else if (img_alt == "rooster1") {
+            document.getElementById("name").innerHTML = "金鸡报晓";
+            document.getElementById("date").innerHTML = "2016.12";
+            document.getElementById("size").innerHTML = "70 x 135 cm";
         } else {
             alert ("Image not found!");
         }
@@ -240,6 +244,10 @@ function overlayOn(image) {
             document.getElementById("name").innerHTML = "Lion on the watch";
             document.getElementById("date").innerHTML = "2016.06";
             document.getElementById("size").innerHTML = "135 x 70 cm";
+        } else if (img_alt == "rooster1") {
+            document.getElementById("name").innerHTML = "Happy Chinese New Year - Year of Rooster";
+            document.getElementById("date").innerHTML = "2016.12";
+            document.getElementById("size").innerHTML = "70 x 135 cm";
         } else {
             alert ("Image not found!");
         }
